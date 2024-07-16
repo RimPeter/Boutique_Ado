@@ -64,6 +64,7 @@ TEMPLATES = [
         'DIRS': [
             os.path.join(BASE_DIR, 'templates'),#required for the allauth templates
             os.path.join(BASE_DIR, 'templates', 'allauth'),#required for the allauth templates
+            os.path.join(BASE_DIR, 'products', 'templates', 'products'), 
             ],
         'APP_DIRS': True,
         'OPTIONS': {
